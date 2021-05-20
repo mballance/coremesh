@@ -1,0 +1,13 @@
+mkdir -p /project/fun/openlane/coremesh-trunk/verilog/dv/sim/coremesh_cluster/cache/openlane
+make -C /project/fun/openlane/coremesh-trunk/verilog/dv/sim/coremesh_cluster/cache/openlane -f /project/fun/openlane/coremesh-trunk/verilog/dv/sim/coremesh_cluster/mkdv.mk \
+	MKDV_RUNDIR=/project/fun/openlane/coremesh-trunk/verilog/dv/sim/coremesh_cluster/rundir \
+	MKDV_CACHEDIR=/project/fun/openlane/coremesh-trunk/verilog/dv/sim/coremesh_cluster/cache/openlane \
+	build-openlane || (echo "FAIL: exit status $?" > status.txt; exit 1)
+make[1]: Entering directory '/project/fun/openlane/coremesh-trunk/verilog/dv/sim/coremesh_cluster/cache/openlane'
+make[1]: Nothing to be done for 'build-openlane'.
+make[1]: Leaving directory '/project/fun/openlane/coremesh-trunk/verilog/dv/sim/coremesh_cluster/cache/openlane'
+INCFILES: /project/fun/openlane/coremesh-trunk/packages/mkdv/src/mkdv/share/mkfiles/mkdv_ncsim.mk /project/fun/openlane/coremesh-trunk/packages/mkdv/src/mkdv/share/mkfiles/mkdv_icestorm.mk /project/fun/openlane/coremesh-trunk/packages/mkdv/src/mkdv/share/mkfiles/mkdv_vcs.mk /project/fun/openlane/coremesh-trunk/packages/mkdv/src/mkdv/share/mkfiles/mkdv_icarus.mk /project/fun/openlane/coremesh-trunk/packages/mkdv/src/mkdv/share/mkfiles/mkdv_cocotb.mk /project/fun/openlane/coremesh-trunk/packages/mkdv/src/mkdv/share/mkfiles/mkdv_vlsim.mk /project/fun/openlane/coremesh-trunk/packages/mkdv/src/mkdv/share/mkfiles/mkdv_openlane.mk /project/fun/openlane/coremesh-trunk/packages/mkdv/src/mkdv/share/mkfiles/mkdv_questa.mk /project/fun/openlane/coremesh-trunk/packages/mkdv/src/mkdv/share/mkfiles/mkdv_quartus.mk /project/fun/openlane/coremesh-trunk/packages/mkdv/src/mkdv/share/mkfiles/mkdv_sby.mk /project/fun/openlane/coremesh-trunk/packages/mkdv/src/mkdv/share/mkfiles/mkdv_pybfms.mk sby questa icestorm vlsim quartus openlane icarus questa icestorm quartus openlane cocotb pybfms
+make[1]: Entering directory '/project/fun/openlane/coremesh-trunk/verilog/dv/sim/coremesh_cluster/rundir'
+make[1]: *** No rule to make target '/project/fun/openlane/coremesh-trunk/verilog/dv/sim/coremesh_cluster//config.tcl', needed by '/project/fun/openlane/coremesh-trunk/verilog/dv/sim/coremesh_cluster/rundir/coremesh_cluster_tb/config.tcl'.  Stop.
+make[1]: Leaving directory '/project/fun/openlane/coremesh-trunk/verilog/dv/sim/coremesh_cluster/rundir'
+make: *** [/project/fun/openlane/coremesh-trunk/packages/mkdv/src/mkdv/share/mkfiles/dv.mk:79: run] Error 1

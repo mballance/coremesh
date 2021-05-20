@@ -1,0 +1,7 @@
+
+fwprotocol-defs@ssh://github.com:Featherweight-IP/fwprotocol-defs.git
+fwrisc@ssh://github.com:Featherweight-IP/fwrisc.git
+fwnoc@ssh://github.com:Featherweight-IP/fwnoc.git
+fw-wishbone-interconnect@ssh://github.com:Featherweight-IP/fw-wishbone-interconnect.git
+fw-wishbone-sram-ctrl@ssh://github.com:Featherweight-IP/fw-wishbone-sram-ctrl.git
+
